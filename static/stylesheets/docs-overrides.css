@@ -1906,3 +1906,26 @@ img[alt=ssl_example] {
 .copy:hover {
   background-color: #c2cad6;
 }
+
+.thirdcolumn {
+  width: 300px;
+  padding-top: 127px;
+  margin-left: 1262px;
+  float: left;
+}
+
+.autotoc {
+  padding-left: 30px;
+  font-family: 'Work Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  color: #5F6065;
+  border-bottom: 0;
+  -webkit-transition: color 240ms cubic-bezier(0.2, 0.3, 0.25, 0.9);
+  transition: color 240ms cubic-bezier(0.2, 0.3, 0.25, 0.9);
+}
+
+.autotoc a:hover {
+  color: #46474b;
+}

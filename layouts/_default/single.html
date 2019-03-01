@@ -40,6 +40,12 @@
     </div>
   </article>
 
+  <aside class="thirdcolumn">
+      {{ if isset .Params "toc" }}
+        {{ partial "toc.html" . }}
+      {{ end }}
+  </aside>
+
   <div class="results" role="status" aria-live="polite">
     <div class="scrollable">
       <div class="wrapper">
@@ -48,6 +54,7 @@
       </div>
     </div>
   </div>
+
 </main>
 
 <footer class="footer">

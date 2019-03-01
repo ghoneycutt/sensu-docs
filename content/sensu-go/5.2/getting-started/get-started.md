@@ -5,6 +5,7 @@ description: "It’s easy to get started with Sensu Go. Download the sandbox, in
 version: "5.2"
 weight: 1
 product: "Sensu Go"
+toc: yep
 menu:
   sensu-go-5.2:
     parent: getting-started
