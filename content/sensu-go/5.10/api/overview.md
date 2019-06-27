@@ -1,7 +1,7 @@
 ---
 title: "API overview"
 linkTitle: "API Overview"
-description: "The Sensu backend REST API provides access to Sensu workflow configurations and monitoring event data. Read this guide for an overview of the Sensu Go API, including URL format, data format, versioning, and more."
+description: "The Sensu backend API provides access to Sensu workflow configurations and monitoring event data. Read this guide for an overview of the Sensu Go API, including URL format, data format, versioning, and more."
 weight: 10
 version: "5.10"
 product: "Sensu Go"
@@ -9,6 +9,8 @@ menu:
   sensu-go-5.10:
     parent: api
 ---
+
+**API version: v2**
 
 - [URL format](#url-format)
 - [Data format](#data-format)
@@ -22,9 +24,7 @@ menu:
   - [Combining selectors and statements](#combining-selectors-and-statements)
 - [Request size](#request-size)
 
-**Sensu Go 5.10 includes API v2.**
-
-The Sensu backend REST API provides access to Sensu workflow configurations and monitoring event data.
+The Sensu backend API provides access to Sensu workflow configurations and monitoring event data.
 For the Sensu agent API, see the [agent reference][4].
 
 ## URL format
